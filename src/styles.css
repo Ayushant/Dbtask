@@ -1,0 +1,12 @@
+.widget-container {
+    position: relative;
+  }
+  
+  .remove-button {
+    display: none; /* Initially hide the button */
+  }
+  
+  .widget-container:hover .remove-button {
+    display: block; /* Show the button on hover */
+  }
+  
